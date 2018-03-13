@@ -1,4 +1,4 @@
-# Countdown Page
+# Coming Soon Page
 
 Bootstrap Countdown Page
 
