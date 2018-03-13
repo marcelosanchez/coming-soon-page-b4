@@ -1,0 +1,148 @@
+* {
+	box-sizing: border-box;
+}
+
+:root {
+	--z-normal 			: 10;
+	--z-tooltip 		: 100;
+	--z-fixed 			: 1000;
+	--z-modal 			: 10000;
+
+	--text-color        : #fff;
+	--bg-color-dark 	: #000;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	color: var(--text-color);
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+
+.hidden {
+	display: none;
+}
+
+/*Particles*/
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    background: -webkit-linear-gradient(to bottom, #232323, #000000);
+    background: linear-gradient(to bottom, #232323, #000000);
+	z-index: 0;
+}
+
+
+.bg { 
+    /*background: url(../img/bkg.jpg);*/
+
+    height: 100%; 
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #000000;
+    background: -webkit-linear-gradient(to bottom, #232323, #000000);
+    background: linear-gradient(to bottom, #232323, #000000);
+	z-index: 0;
+}
+
+.cols-cont {
+    margin-top: 6rem;
+}
+
+/*Timer Col*/
+.main-timer-cont {
+	padding-right: 60px;
+}
+#countdown-cont .countd-dd {
+	font-size: 228px;
+	line-height: 1;
+	display: inline-block;
+}
+
+.dd-label {
+	font-size: 40px;
+	display: inline;
+	vertical-align: top;
+}
+
+p[class^="countd-t"] {
+	font-size: 60px;
+}
+
+.tt-label {
+	font-size: 20px;
+}
+
+p[class^="countd-t"], .tt-label {
+	margin-bottom: 0;
+	line-height: 1
+}
+
+.countdown-time {
+	display: block;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+.countdown-time .time-box {
+    border: 1px solid white;
+    text-align: center;
+    display: inline-block;
+    height: 145px;
+    width: 145px;
+    padding: 34px;
+}
+
+/*Subscribe Col*/
+.main-subscribe-cont {
+    border-left: 4px solid rgba(255, 255, 255, 0.4);
+    padding-left: 60px;
+}
+.main-subscribe-cont h2 {
+	font-size: 65px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.main-subscribe-cont .lead {
+	font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.soon-title {
+    margin-top: 30px;
+}
+
+.social-icon {
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+
+.social-icon {
+	font-size: 20px;
+	padding: 6px;
+	margin: 0 7px;
+	cursor: pointer;
+	transition: background-color 0.5s ease;
+}
+
+.social-icon:hover {
+	background-color: rgba(128, 128, 128, 0.4);
+}
+.social-icon a {
+	text-decoration: none;
+	color: white;
+}
+.footer {
+    position: relative;
+    margin-top: 2rem;
+}
