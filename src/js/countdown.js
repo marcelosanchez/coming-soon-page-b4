@@ -45,4 +45,4 @@ function timerUpdate(elem, deadline, finalMsg) {
 	}
 }
 
-countdown('Jun 05 2019 00:00:00 GMT-0500', 'countdown-cont', 'Se acabo!');
+countdown('Jun 20 2018 00:00:00 GMT-0500', 'countdown-cont', 'Se acabo!');
