@@ -1,6 +1,8 @@
 # Coming Soon Page
 
-Bootstrap Countdown Page
+## Bootstrap Countdown Page
+
+You can see the countdown page [here](https://marcelosanchez.github.io/coming-soon-page-b4/ "Count Down Page")
 
 ### Preview
 
