@@ -1,7 +1,11 @@
 console.log("Contdown");
 function monthDiff(deadline) {
 	var now = new Date();
-	return deadline.getMonth() - now.getMonth() + (12 * (deadline.getFullYear() - now.getFullYear()))
+
+	var diff =(deadline.getTime() - now.getTime()) / 1000;
+	diff /= (60 * 60 * 24 * 7 * 4);
+	return Math.abs(Math.round(diff) -1);	
+
 }
 
 
