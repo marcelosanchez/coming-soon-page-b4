@@ -45,4 +45,4 @@ function timerUpdate(elem, deadline, finalMsg) {
 	}
 }
 
-countdown('Jun 20 2019 00:00:00 GMT-0500', 'countdown-cont', 'Es hora!');
+countdown('Dec 7 2019 20:00:00 GMT-0500', 'countdown-cont', 'Es hora!');
